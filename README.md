@@ -50,6 +50,7 @@ Cadastro de curso:
 - Url da imagem de capa: Deve aceitar apenas texto, não precisa ser obrigatório e deve possuir um limitador de 1000 caracteres.
 - Data de início: Deve ser obrigatório, ser do tipo date, com mascará de data permitindo a digitação do usuário, mas também permitindo o usuário selecionar a data pela funcionalidade do calendário. A data de início não pode ser inferior a data atual.
 - Data de fim: Deve ser obrigatório,  ser do tipo date, com mascará de data permitindo a digitação do usuário, mas também permitindo o usuário selecionar a data pela funcionalidade do calendário. A data de fim não pode ser inferior a data de início.
+
 Observação: Segue abaixo um exemplo de como o usuário poderia adicionar uma data:
 ![Date1](https://github.com/user-attachments/assets/7dc3dd00-9e30-4e94-ab37-212e7f427101)
 - Número de vagas: Deve ser obrigatório, ser do tipo texto e com seta para adicionar ou diminuir a quantidade. Não deve permitir quantidade negativa
