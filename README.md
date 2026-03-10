@@ -37,13 +37,15 @@ Tela inicial da aplicação:
 1: Verificar se a lista de cursos está sendo exibida.
 2: Verificar se  se possui uma barra superior fixa com as opções de "Listar cursos" e "Cadastrar cursos".
 3: Verificar se a visualização dos cursos está visível da melhor forma para o usuário. 
+Resultado esperado: Cursos visíveis e ordenados de forma organizada, permitindo o usuário verificar as informações de cada curso de forma prática.
+
 4: Sugerir um ordenador na lista de cursos, permitindo ordenar por "Nome" ou "Data de início".
 5: Sugerir um campo de busca na lista de cursos, permitindo o usuário buscar por nome do curso. 
 6: Sugerir criar uma paginação na tela para melhorar a otimização. Criar uma opção no fim dessa paginação para usuário selecionar quantos registros ele quer visualizar(10/20/50/100...).
 
 Cadastro de curso:
 
-7: Tela inicial >> Cadastrar Curso >> Nessa tela deverá possuir um formulário de cadastro com os campos a seguir(Caso algum dos campos não obedecer as regras, deve impossibilitar o cadastro e informar o usuário o que está incorreto, mantendo as informações que ele já preencheu no formulário para ele editar):
+7: Tela inicial >> Cadastrar Curso >> Nessa tela deverá possuir um formulário de cadastro com os campos a seguir:
 - Nome do Curso: Deve aceitar apenas texto, ser obrigatório e deve possuir um limitador de 100 caracteres.
 - Descrição do curso: Deve aceitar apenas texto, ser obrigatório e deve possuir uma caixa de texto maior que do 'Nome do Curso' para facilitar o detalhamento do usuário. Deve ter limitador de 1500 caracteres.
 - Instrutor: Deve aceitar apenas texto, ser obrigatório e deve possuir um limitador de 100 caracteres.
@@ -58,9 +60,11 @@ Observação: Segue abaixo um exemplo de como o usuário poderia adicionar uma d
 - Caso selecionar a opção "Presencial", deve aparecer um novo campo obrigatório na tela com nome "Endereço", que deve permitir apenas texto e ter um limitador de 500 caracteres.
 - Caso selecionar a opção Online, deve aparecer um novo campo obrigatório na tela com nome "Link da inscrição", que deve permitir apenas texto e um limitador de 500 caracteres.
 
-8: Ao finalizar o cadastro de um curso deve exibir uma mensagem em verde na tela informando que o cadastro foi realizado com sucesso e voltar para a lista de cursos.
+Resultado inesperado: Caso algum dos campos não obedecer as regras, deve impossibilitar o cadastro e informar o usuário o que está incorreto, mantendo as informações que ele já preencheu no formulário para ele editar.
+Resultado esperado: Ao finalizar as informações clicar para cadastrar curso, deve exibir uma mensagem em verde na tela informando que o cadastro foi realizado com sucesso e voltar para a lista de cursos.
+
 9: Verificar se após o cadastro de um curso, ele foi adicionado corretamente na lista.
-10: Ao estar na tela de "Cadastro de curso", quando clicar no botão "Listar cursos", a aplicação deve ir para a tela de lista de cursos.
+10: Ao estar na tela de "Cadastro de curso", quando clicar no botão "Listar cursos" na barra superior, a aplicação deve ir para a tela de lista de cursos.
 
 Exclusão de cursos:
 
