@@ -24,9 +24,8 @@ Pontos do sistema mais críticos para teste:
 
 - Cadastro de curso: Verificar se após adicionar um curso, ele é corretamente salvo e adicionado na lista de cursos.
 - Exclusão de curso: Verificar se a exclusão de cursos ocorre corretamente e remove o curso da lista.
-- Campos obrigatórios: Verificar se é possível cadastrar cursos sem informações essenciais.
-- Regras de negócio: Verificar se o usuário consegue colocar número negativo em quantidade de vagas.
-- Validação de datas: Verificar se usuário consegue adicionar curso com data início inferior a data atual. Ou se consegue colocar data de fim inferior a data de início.
+- Campos obrigatórios: Verificar se é possível cadastrar curso sem informações essenciais.
+- Regras de negócio nos campos: Verificar se os campos campos estão com os requisitos atendidos. Os principais são: usuário não deve conseguir colocar número negativo em quantidade de vagas. Não deve conseguir colocar data de início inferior a data atual e não deve conseguir colocar data de fim inferior a data de início.
 
 ---
 
