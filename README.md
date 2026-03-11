@@ -29,7 +29,9 @@ Pontos do sistema mais críticos para teste:
 
 ---
 
-Casos de teste: https://docs.google.com/spreadsheets/d/12gSKbxluqMT_s7wPdaj8X4UkYETeqRVEK7fyFkleFxk/edit?usp=sharing
+Casos de teste:
+https://docs.google.com/spreadsheets/d/12gSKbxluqMT_s7wPdaj8X4UkYETeqRVEK7fyFkleFxk/edit?usp=sharing
 
-Execução dos testes e registro de bugs: https://docs.google.com/document/d/1G5ThK3MHl8KlLCGljkidQYowkjUmg0Yw/edit?usp=sharing&ouid=117707747456327808353&rtpof=true&sd=true
+Execução dos testes e registro de bugs:
+https://docs.google.com/document/d/1G5ThK3MHl8KlLCGljkidQYowkjUmg0Yw/edit?usp=sharing&ouid=117707747456327808353&rtpof=true&sd=true
 
